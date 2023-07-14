@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>PLANTILLA | WEB 1</title>
+  <title>ACIV</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -23,7 +23,7 @@
   <meta name="twitter:image" content="">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="favicon.ico" rel="shortcut icon">
+  <link href="/img/pageicon.png" rel="shortcut icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -62,8 +62,8 @@
         <h1>Empresa de base tecnológica experta en ingeniería 4.0</h1>
         <h2><span class="rotating">Tecnología - Ciencia - Investigación </span></h2>
         <div class="actions">
-          <a href="#about" class="btn-get-started">Portafolio</a>
-          <a href="#services" class="btn-services">Nuestros servicios</a>
+          <a href="#contact" class="btn-get-started">Contactanos</a>
+          <a href="#portfolio" class="btn-services">Portafolio</a>
         </div>
       </div>
     </div>
@@ -75,23 +75,40 @@
   <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <style>
+          #mi-párrafo {
+            color: #7085b9;
+            font-size: 25px;
+            font-family:Tahoma
+          }
+        </style>
+        
+        <p id="mi-párrafo"></p>
         <!-- Descomenta abajo si prefieres usar una imagen de texto -->
         <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="menu-active"><a id="opciones-menu" href="#hero">Inicio</a></li>
+          <!-- <li><a id="opciones-menu" href="#services">Servicios</a></li> -->
+          <li><a id="opciones-menu" href="#portfolio">Portafolio</a></li>
+          <!-- <li><a id="opciones-menu" href="#team">Equipo</a></li> -->
+          <li><a id="opciones-menu" href="#contact">Contacto</a></li>
+
+          <style>
+            #opciones-menu {
+              font-size: 18px;
+            }
+          </style>
+
         </ul>
       </nav>
       <!-- #nav-menu-container -->
     </div>
   </header>
+
+
   <!-- #header -->
 
   <!--==========================
@@ -101,7 +118,7 @@
   <!--==========================
   Services Section
   ============================-->
-  <section id="services">
+  <!-- <section id="services">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -144,7 +161,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!--==========================
@@ -154,85 +171,120 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Portfolio</h3>
+          <h3 class="section-title">Portafolio</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+          <p class="section-description"></p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio1.png); width: 100%;float: right">
             <div class="details">
-              <h4>Portfolio 1</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema de detección temprana de anomalías basado en inteligencia artificial para anticipar decisiones frente al desgaste de turbomáquinas y optimización energética</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio2.png);">
             <div class="details">
-              <h4>Portfolio 2</h4>
-              <span>Alored dono par</span>
+              <h4>Monitoreo en tiempo real de Cavings para pozos de producción, usando visión artificial para cuantificar e identificar su morfología</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio3.png);">
             <div class="details">
-              <h4>Portfolio 3</h4>
-              <span>Alored dono par</span>
+              <h4>Software de simulación hidráulica y de transporte de sólidos para operaciones de perforación de pozos</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio4.png);">
             <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema basado en inteligencia artificial para caracterización de limón Tahití</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio5.png);">
             <div class="details">
-              <h4>Portfolio 5</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema de optimización energética basado en inteligencia artificial para intercambiadores de calor y hornos</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio6.png);">
             <div class="details">
-              <h4>Portfolio 6</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema basado en inteligencia artificial para identificación de variedades de cacao</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio7.png);">
             <div class="details">
-              <h4>Portfolio 7</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema electromecánico seleccionador de peces</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portafolio8.png);" href="https://www.youtube.com/watch?v=TVcOstiakHw">
             <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
+              <h4>Sistema automatizado de conteo y selección de tamaño de trucha a través de sistemas de visión artificial</h4>
+              <!-- <span>Alored dono par</span> -->
             </div>
           </a>
         </div>
 
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portafolio9.png);">
+            <div class="details">
+              <h4>Sistema web para registro de la ficha epidemiológica del SARS COV 2</h4>
+              <!-- <span>Alored dono par</span> -->
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portafolio10.png);">
+            <div class="details">
+              <h4>Sistema automatizado de prensado hidráulico para extracción física de aceites</h4>
+              <!-- <span>Alored dono par</span> -->
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portafolio11.png);">
+            <div class="details">
+              <h4>Sistema automatizado de molienda, tostadora y seleccionadora de grano para café.</h4>
+              <!-- <span>Alored dono par</span> -->
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portafolio12.png);">
+            <div class="details">
+              <h4>Sistema de medición para flujos multifásicos</h4>
+              <!-- <span>Alored dono par</span> -->
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -240,7 +292,7 @@
   <!--==========================
   Team Section
   ============================-->
-  <section id="team">
+  <!-- <section id="team">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -310,7 +362,7 @@
       </div>
     </div>
   </section>
-
+ -->
   <!--==========================
   Contact Section
   ============================-->
@@ -318,9 +370,9 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Contacto</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
         </div>
       </div>
 
@@ -329,17 +381,17 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>Bucaramanga/Santander<br>Colombia</p>
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p>acingenieriavirtual@hotmail.com</p>
             </div>
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
+              <p>(+57) 304523679</p>
             </div>
 
           </div>
@@ -351,19 +403,19 @@
             <div id="errormessage"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
                 <div class="validation"></div>
               </div>
               <div class="text-center"><button type="submit">Enviar mensaje</button></div>
